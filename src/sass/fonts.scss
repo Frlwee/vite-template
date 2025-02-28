@@ -1,0 +1,9 @@
+// Customize for yourself
+// I take this approach if I use my own fonts
+// Otherwise i take fonts from Google using @import
+
+$fonts_path: "@/assets/fonts/";
+
+@function get_font($font) {
+  @return url($fonts_path + $font)
+}
